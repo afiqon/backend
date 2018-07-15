@@ -11,9 +11,9 @@ class DBOperations{
     private $host = 'localhost';
     private $user = 'root';
 //    private $db = 'TestDB';
-    private $db = 'attendance_monitoring';
+    private $db = 'attendance';
 //    private $pass = '';
-    private $pass = 'Jv42Lgz?Ogi6';
+    private $pass = '';
     private $conn;
 
     public function __construct() {

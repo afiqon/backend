@@ -14,9 +14,9 @@ class Database {
     function getConnection() {
 
         $servername = "localhost";
-        $pass = "Jv42Lgz?Ogi6";
+        $pass = "";
         $user = "root";
-        $dbname = "attendance_monitoring";
+        $dbname = "attendance";
 
         // Create connection
         $conn = new mysqli($servername, $user, $pass, $dbname);
